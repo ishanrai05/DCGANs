@@ -22,10 +22,9 @@ device = torch.device("cpu")
 
 
 # '''
-parser = argparse.ArgumentParser(description='PyTorch Fer2013 CNN Training')
+parser = argparse.ArgumentParser(description='PyTorch DCGANs Training')
 parser.add_argument('--use_cuda', type=bool, default=False, help='device to train on')
 parser.add_argument('--samples', type=bool, default=False, help='See sample images')
-parser.add_argument('--view_data_counts', type=bool, default=False, help='Visualize data distribution')
 parser.add_argument('--num_epochs', type=int, default=10, help='Number of epochs to train on')
 parser.add_argument('--train', default=True, type=bool, help='train the model')
 
